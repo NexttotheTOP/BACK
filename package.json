@@ -28,7 +28,8 @@
     "mongodb": "^6.14.2",
     "@pinecone-database/pinecone": "^5.1.1",
     "@langchain/cohere": "^0.3.2",
-    "@langchain/openai": "^0.4.4"
+    "@langchain/openai": "^0.4.4",
+    "@tsconfig/recommended": "^1.0.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.26.1",
