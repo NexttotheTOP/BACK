@@ -1,14 +1,14 @@
 {
   "name": "agents",
-  "author": "Your Name",
+  "author": "WoutBitch",
   "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "npx @langchain/langgraph-cli dev --port 2024 --config ./langgraph.json",
-    "build": "tsc",
+    "build": "npm install && tsc",
     "start": "npx @langchain/langgraph-cli dev --port $PORT --config ./langgraph.json",
-    "clean": "rm -rf ./dist .turbo || true",
+    "clean": "rm -rf ./dist",
     "format": "prettier --config .prettierrc --write \"src\"",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix"
@@ -46,7 +46,6 @@
     "@types/uuid": "^10.0.0",
     "prettier": "^3.3.3",
     "tsx": "^4.19.1",
-    "turbo": "latest",
     "typescript": "^5"
   }
 }
